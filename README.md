@@ -28,6 +28,9 @@ To run this project locally, follow these steps:
 
 The application will be running at [http://localhost:3000](http://localhost:3000).
 
+## Deployment
+The application is deployed on Netlify and can be accessed using the following link: [Trello-board](https://trello-board-100.netlify.app/)
+
 ## Usage
 
 - Create a new list by clicking on the "Add a list" button.
