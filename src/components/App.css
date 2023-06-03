@@ -1,0 +1,56 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #AEE2FF;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+  display: flex;
+}
+.List {
+  background-color: #B799FF;
+  border-radius: 3px;
+  width: 300px;
+  padding: 8px;
+  margin-right: 8px;
+  height: 100%;
+}
+.lists{
+  display: flex;
+}
+.lists > * {
+  margin-right: 8px; 
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cardContainer{
+  margin-bottom:8px ;
+}
+
+.formContainer{
+  overflow: "visible";
+  min-height: 08;
+  min-width: 272;
+}
+.add-Button{
+  color:white;
+  background-color: #5aac44;
+}
+.addButtonContainer{
+  display: flex;
+  cursor: pointer;
+  align-items: baseline;
+  margin-top: 5px;
+}
